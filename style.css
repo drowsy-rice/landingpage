@@ -37,7 +37,7 @@ a {
     font-size: small;
 }
 
-.body {
+.content {
     display: flex;
     margin-bottom: 80px;
     margin-top: 50px;
@@ -48,7 +48,7 @@ a {
     width: 400px;
 }
 
-.body img {
+.content img {
     margin-left: auto;
     width: 60%;
     height: 100%;
