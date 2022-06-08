@@ -7,8 +7,8 @@ body {
 
 .block1 {
     background-color: rgb(47, 47, 70);
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .header {
@@ -87,13 +87,14 @@ a {
 
 h2 {
     font-size: 36px;
-    font-weight: 900;
+    font-weight: bolder;
     margin-bottom: 32px;
 }
 
 .block2 {
     text-align: center;
     background-color: rgb(255, 255, 223);
+    padding: 20px;
 }
 
 .container {
@@ -104,4 +105,26 @@ h2 {
 
 .pair {
     max-width: 200px;
+}
+
+.block3 {
+    background-color: rgb(180, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+
+.quotepair {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    max-width: 800px;
+    padding: 100px;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quotepair p2 {
+    margin-left: auto;
+    font-weight: bold;
+    font-style: normal;
 }
