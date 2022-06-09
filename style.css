@@ -122,6 +122,7 @@ h2 {
     background-color: #c14a46;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .quotepair {
@@ -139,4 +140,36 @@ h2 {
     margin-left: auto;
     font-weight: bold;
     font-style: normal;
+}
+
+.block4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#ef7544;
+    padding: 100px;
+}
+
+.dialoguebox {
+    background-color:#48014d;
+    color:white;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    width: 1000px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.dialoguebox button {
+    background-color: #A2DA5A;
+    color: blue;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    margin-left:auto
 }
